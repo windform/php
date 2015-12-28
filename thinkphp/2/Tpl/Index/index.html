@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+{//$str}
+<br>
+{//$me['name']|md5|substr=0,7}
+<br>
+{//$me.age}
+<br>
+{//$time|date='Y-m-d H:i:s',###}
+<br/>
+<!--
+<volist name='person' id='data' offset='1' length='2' empty='对不起，没有数据'>
+{//$data.name}----------{//$data.age}<br/>
+</volist>
+-->
+<!--<foreach name='person' item='data'>
+{$data.name}----------{$data.age}<br/>
+</foreach>-->
+
+<!--
+<for start="1" end="50" name="j">
+	{//$j}<br/>
+</for>
+-->
+<!--
+<if condition="$num gt 50">num大于50
+	<elseif condition="$num lt 50" />num小于50
+	<else/> num等于50
+</if>
+-->
+<switch name="name">
+	<case value="laoshi">小明，滚出去</case>
+    <case value="xiaohong">小明，你给我滚出去</case>
+    <default/>小明自己滚出去	
+</switch>
+	
+</body>
+</html>

@@ -1,0 +1,10 @@
+[ 2015-12-28T21:33:29+08:00 ] 0.0.0.0 /phpPractice/phpdemo/thinkphp/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\phpPractice\phpdemo\thinkphp\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.098394s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\phpPractice\phpdemo\thinkphp\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `think_user`  [ RunTime:0.011671s ]
+ERR: 模板不存在[./Admin/Tpl/Index/index.html]
+
